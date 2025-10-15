@@ -4,6 +4,7 @@ import { link } from 'fs'
 
 const Nav = () => {
     const lista = [
+        
          {
         link:'/',
         texto:'ir a inicio'
@@ -15,7 +16,7 @@ const Nav = () => {
     ]
     
     return(
-        <nav>
+        <nav style={{backgroundColor:'black', padding:'10px 20px', borderRadius:'5px', cursor:'pointer', margin:'15px', display:'flex', justifyContent:'space-between'}}>
             {lista.map((item,index) => <Link key={index} href={item.link}>
             {item.texto}
             </Link>)}
