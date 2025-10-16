@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-const Carrera = () =>{
+const page = () =>{
 return(
     <div>
         <h1>
@@ -11,4 +10,4 @@ return(
 )
 }
 
-export default Carrera
+export default page

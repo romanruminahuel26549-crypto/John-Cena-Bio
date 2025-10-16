@@ -13,6 +13,10 @@ const Nav = () => {
         link:'/Actitudes',
         texto:'Actitudes'
         },
+                 {
+        link:'/Hacia Hollywood',
+        texto:'Hacia Hollywood'
+        },
     ]
     
     return(
